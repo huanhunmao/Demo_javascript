@@ -1,0 +1,20 @@
+{
+  "name": "Demo_javascript",
+  "version": "1.0.0",
+  "description": "Created with CodeSandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huanhunmao/Demo_javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huanhunmao/Demo_javascript/issues"
+  },
+  "homepage": "https://github.com/huanhunmao/Demo_javascript#readme"
+}
