@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Markdown />
+    <!-- <Markdown /> -->
     <!-- <Watch msg="Vue.js" /> -->
     <!-- <Template ref="template" /> -->
     <!-- <Slot>从父组件传递的内容 </Slot> -->
@@ -13,7 +13,9 @@
     <Fetchdata />-->
     <!-- <GridP /> -->
     <!-- <TreeItemP /> -->
-    <LpLRadarChartP />
+    <!-- <LpLRadarChartP /> -->
+    <!-- <ModalP /> -->
+    <ToDoListP />
   </div>
 </template>
 
@@ -66,7 +68,9 @@
 // import Fetchdata from './components/Fetchdata.vue'
 // import GridP from './components/GridP.vue'
 // import TreeItemP from './components/TreeItemP.vue'
-import LpLRadarChartP from './components/LpLRadarChartP.vue'
+// import LpLRadarChartP from './components/LpLRadarChartP.vue'
+// import ModalP from './components/ModalP.vue'
+import ToDoListP from './components/ToDoListP.vue'
 
 export default {
   name: 'App',
@@ -81,7 +85,9 @@ export default {
     // Fetchdata,
     // GridP,
     // TreeItemP,
-    LpLRadarChartP,
+    // LpLRadarChartP,
+    // ModalP,
+    ToDoListP,
   },
   data() {
     return {
