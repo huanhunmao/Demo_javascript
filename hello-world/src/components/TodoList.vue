@@ -11,12 +11,9 @@
     <ul>
       <li v-for="todo in list" :key="todo.id">
         <div>
-          <input
-            type="checkbox"
-            v-model="todo.completed"
-            @checked="ifChanged"
-          />
-          <label :class="{ delete: ifDelete }">{{ todo.title }}</label>
+          <input type="checkbox" v-model="todo.completed" @change="toggleAll" />
+          <label :class="{ delete: todo.completed }">{{ todo.title }}</label>
+          <button @click="remove(todo.id)">remove items</button>
         </div>
       </li>
     </ul>
@@ -46,9 +43,11 @@ export default {
 
       this.input = ''
     },
-    ifChanged(e) {
-      console.log(1)
-      console.log(e)
+    toggleAll(e) {
+      this.list.completed = e.target.checked
+    },
+    remove(id) {
+      this.list = this.list.filter((item) => item.id !== id)
     },
   },
 }
