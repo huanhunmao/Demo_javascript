@@ -15,7 +15,8 @@
     <!-- <TreeItemP /> -->
     <!-- <LpLRadarChartP /> -->
     <!-- <ModalP /> -->
-    <ToDoListP />
+    <!-- <ToDoListP /> -->
+    <CounterP />
   </div>
 </template>
 
@@ -70,7 +71,8 @@
 // import TreeItemP from './components/TreeItemP.vue'
 // import LpLRadarChartP from './components/LpLRadarChartP.vue'
 // import ModalP from './components/ModalP.vue'
-import ToDoListP from './components/ToDoListP.vue'
+// import ToDoListP from './components/ToDoListP.vue'
+import CounterP from './components/CounterP.vue'
 
 export default {
   name: 'App',
@@ -87,7 +89,8 @@ export default {
     // TreeItemP,
     // LpLRadarChartP,
     // ModalP,
-    ToDoListP,
+    // ToDoListP,
+    CounterP,
   },
   data() {
     return {
