@@ -16,7 +16,9 @@
     <!-- <LpLRadarChartP /> -->
     <!-- <ModalP /> -->
     <!-- <ToDoListP /> -->
-    <CounterP />
+    <!-- <CounterP /> -->
+    <!-- <VmodelP /> -->
+    <UseMouseMovedP />
   </div>
 </template>
 
@@ -72,7 +74,9 @@
 // import LpLRadarChartP from './components/LpLRadarChartP.vue'
 // import ModalP from './components/ModalP.vue'
 // import ToDoListP from './components/ToDoListP.vue'
-import CounterP from './components/CounterP.vue'
+// import CounterP from './components/CounterP.vue'
+// import VmodelP from './components/VmodelP.vue'
+import UseMouseMovedP from './components/UseMouseMoveP.vue'
 
 export default {
   name: 'App',
@@ -90,7 +94,9 @@ export default {
     // LpLRadarChartP,
     // ModalP,
     // ToDoListP,
-    CounterP,
+    // CounterP,
+    // VmodelP,
+    UseMouseMovedP,
   },
   data() {
     return {
