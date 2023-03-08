@@ -18,7 +18,10 @@
     <!-- <ToDoListP /> -->
     <!-- <CounterP /> -->
     <!-- <VmodelP /> -->
-    <UseMouseMovedP />
+    <!-- <UseMouseMovedP /> -->
+    <!-- <UseFetch /> -->
+    <!-- <UseI18nPluginVue /> -->
+    <h1>{{ $translate('greetings.hello') }}</h1>
   </div>
 </template>
 
@@ -76,7 +79,9 @@
 // import ToDoListP from './components/ToDoListP.vue'
 // import CounterP from './components/CounterP.vue'
 // import VmodelP from './components/VmodelP.vue'
-import UseMouseMovedP from './components/UseMouseMoveP.vue'
+// import UseMouseMovedP from './components/UseMouseMoveP.vue'
+// import UseFetch from './components/UseFetch.vue'
+// import UseI18nPluginVue from './components/UseI18nPlugin.vue'
 
 export default {
   name: 'App',
@@ -96,7 +101,9 @@ export default {
     // ToDoListP,
     // CounterP,
     // VmodelP,
-    UseMouseMovedP,
+    // UseMouseMovedP,
+    // UseFetch,
+    // UseI18nPluginVue,
   },
   data() {
     return {
