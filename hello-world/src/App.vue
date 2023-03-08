@@ -21,7 +21,7 @@
     <!-- <UseMouseMovedP /> -->
     <!-- <UseFetch /> -->
     <!-- <UseI18nPluginVue /> -->
-    <h1>{{ $translate('greetings.hello') }}</h1>
+    <button @click="handleClick">点击弹出文字</button>
   </div>
 </template>
 
@@ -115,6 +115,11 @@ export default {
   },
   mounted() {
     // console.log('this.$ref.template', this.$refs.template) // 是 <Template /> 组件的实例
+  },
+  methods: {
+    handleClick() {
+      this.$waring()
+    },
   },
 }
 </script>
