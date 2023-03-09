@@ -22,6 +22,7 @@
     <!-- <UseFetch /> -->
     <!-- <UseI18nPluginVue /> -->
     <button @click="handleClick">点击弹出文字</button>
+    <RoutesVue />
   </div>
 </template>
 
@@ -82,6 +83,7 @@
 // import UseMouseMovedP from './components/UseMouseMoveP.vue'
 // import UseFetch from './components/UseFetch.vue'
 // import UseI18nPluginVue from './components/UseI18nPlugin.vue'
+import RoutesVue from './components/Routes.vue'
 
 export default {
   name: 'App',
@@ -104,6 +106,7 @@ export default {
     // UseMouseMovedP,
     // UseFetch,
     // UseI18nPluginVue,
+    RoutesVue,
   },
   data() {
     return {
